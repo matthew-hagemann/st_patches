@@ -1,0 +1,25 @@
+From ea2fe1ae8d2159f8867e2e7109c8ba01abe76926 Mon Sep 17 00:00:00 2001
+From: Matt Hagemann <matt3hagemann@gmail.com>
+Date: Sat, 22 Jun 2024 22:03:16 +0200
+Subject: [PATCH] font to 14_
+
+---
+ config.def.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/config.def.h b/config.def.h
+index 2cd740a..195bc80 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -5,7 +5,7 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
++static char *font = "Liberation Mono:pixelsize=14:antialias=true:autohint=true";
+ static int borderpx = 2;
+ 
+ /*
+-- 
+2.43.0
+
